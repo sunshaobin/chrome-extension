@@ -1,6 +1,6 @@
 import React from 'react';
 import './SidePanelGlobal.css';
-// import { Button } from 'antd';
+import { Button } from 'antd';
 const SidePanelGlobal = () => {
   return (
     <div className="App">
@@ -16,7 +16,7 @@ const SidePanelGlobal = () => {
         >
           Learn React!
         </a> */}
-        {/* <Button /> */}
+        <Button />
       </header>
     </div>
   );
